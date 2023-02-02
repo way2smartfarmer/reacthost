@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: #0a5c03;
+  color: white;
+  font-weight: bold;
+}
+
+.products {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  /* grid-template-columns: repeat(1, 233px); */
+}
+.img {
+  width: 25px;
+  height: 25px;
+  transition: all 0.3 ease;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+.card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px 0;
+}
